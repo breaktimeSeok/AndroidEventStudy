@@ -44,7 +44,7 @@ public class MainActivity extends AppCompatActivity {
 
                 if(action == MotionEvent.ACTION_DOWN){
                     println("손가락 눌림 : " + curX + ", " + curY);
-                }else if(action == MotionEvent.ACTION_HOVER_MOVE){
+                }else if(action == MotionEvent.ACTION_MOVE){
                     println("손가락 움직임 : " + curX + ", " + curY);
                 }else if(action == MotionEvent.ACTION_UP){
                     println("손가락 뗌 : " + curX + "," + curY);
@@ -53,6 +53,8 @@ public class MainActivity extends AppCompatActivity {
             }
 
         });
+
+
 
     }
 
