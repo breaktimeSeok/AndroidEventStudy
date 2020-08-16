@@ -15,7 +15,7 @@
 
 
 
-
+# 터치 이벤트 
 |메서드|이벤트 유형|
 |------|---|
 |onDown()|화면이 눌렸을 경우|
@@ -27,3 +27,21 @@
 |onScroll()|화면이 눌린 채 일정한 속도와 방향으로 움직였다 떼는 경우|
 |onFling()|화면이 눌린 채 가속도를 붙여 손가락을 움직였다 떼는 경우|
 |onLongPress()|화면을 손가락으로 오래 누르는 경우|
+
+
+
+# 키 이벤트 
+|키 코드|설명|
+|------|---|
+|KEYCODE_DPAD_LEFT|왼쪽 화살표|
+|KEYCODE_DPAD_RIGHT|오른쪽 화살표|
+|KEYCODE_DPAD_UP|위쪽 화살표|
+|KEYCODE_DPAD_DOWN|아래쪽 화살표|
+|KEYCODE_DPAD_CENTER|[중앙] 버튼|
+|KEYCODE_CALL|[통화] 화살표|
+|KEYCODE_ENDCALL|[통화 종료] 화살표|
+|KEYCODE_BACK|[뒤로 가기] 화살표|
+|KEYCODE_VOLUME_UP|[소리 크기 증가] 화살표|
+|KEYCODE_VOLUME_DOWN|[소리 크기 감소] 화살표|
+|KEYCODE_0 ~ KEYCODE_9|숫자 0부터 9까지의 키 값|
+|KEYCODE_A ~ KEYCODE_Z|알파벳 A부터 Z까지의 키 값|
